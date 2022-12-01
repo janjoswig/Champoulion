@@ -1,0 +1,211 @@
+.notebook_app {
+    background-color: #FBFBF4;
+}
+
+div#header {
+    background-color: #FBFBF4;
+}
+
+div#notebook_list_header.row.list_header {
+    background-color: #FBFBF4;
+}
+
+.panel-heading {
+    background-color: #FBFBF4 !important;
+}
+
+div.output_area pre {
+    color: 020122;
+    font: "Fira Code";
+}
+
+span#login_widget > .button, #logout, #shutdown {
+    color: #020122;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    background-color: #C54448;
+}
+
+.input-group-addon {
+    color: #020122;
+    background-color: #FBFBF4 !important;
+}
+
+.btn-primary {
+    color: #FBFBF4;
+    background-color: #3281A3;
+    border-color: #3281A3;
+}
+
+input[type="checkbox" i] {
+    background-color: #3281A3
+}
+
+.container {
+    width: 90%;
+}
+
+body {
+    font-family: "Myriad Pro";
+    font-size: 12pt;
+    color: #020122;
+}
+
+div#menubar-container, div#header-container {
+    background-color: #FFFFFF;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    background-color: #FBFBF4 !important;
+}
+
+#menubar .navbar-collapse {
+    background-color: #FBFBF4 !important;
+}
+
+.item_buttons .running-indicator {
+    color: #2f807c;
+}
+
+.running_notebook_icon:before {
+    color: #2f807c;
+}
+
+a {
+    color: #020122;
+    text-decoration: none;
+}
+
+a:link {
+    color: #020122;
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: #2f807c;
+    text-decoration: underline;
+  }
+
+a:active {
+    color: #2f807c;
+    text-decoration: underline;
+}
+
+div.input_prompt {
+    color: #020122;
+}
+
+div.output_prompt {
+    color: #752023;
+}
+
+div.input_area {
+    background: #FBFBF4;
+}
+
+div.cell.selected, div.cell.selected.jupyter-soft-selected {
+    border-color: #FFB627;
+}
+
+div.cell.selected:before, div.cell.selected.jupyter-soft-selected:before {
+    background: #FFB627;
+    border-color: #FFB627;
+}
+
+.edit_mode div.cell.selected, div.cell.selected.jupyter-soft-selected {
+    border-color: #C54448;
+}
+
+.edit_mode div.cell.selected:before, div.cell.selected.jupyter-soft-selected:before {
+    background: #C54448;
+    border-color: #C54448;
+}
+
+.celltoolbar {
+    background-color: #FFFFFF;
+}
+
+.CodeMirror {
+    font-family: 'Fira Code';
+}
+
+div.text_cell_render {
+    font-family: "Minion Pro";
+    font-size: 12pt;
+    color: #020122;
+}
+
+.timing_area {
+    background-color: #FFFFFF;
+    border-top: 1px solid #F49090;
+}
+
+div.text_cell_render h1,
+div.text_cell_render h2,
+div.text_cell_render h3,
+div.text_cell_render h4,
+div.text_cell_render h5,
+div.text_cell_render h6 {
+    font-family: 'Myriad Pro';
+}
+
+.cm-s-ipython.CodeMirror {
+    background: #FBFBF4;
+    color: #020122;
+}
+
+element.style {
+    background-color: #2f807c;
+}
+
+::selection {
+    background: #FFD685;
+}
+
+.CodeMirror-hscrollbar {
+    background: #FBFBF4;
+    color: #FBFBF4;
+}
+
+.cm-negative {color: #dc143c;}
+.cm-positive {color: #2f807c;}
+
+.cm-s-default span.cm-header { color: #020122; }
+
+mark,
+.mark {
+ background-color: #dc143c;
+}
+
+.CodeMirror-gutters { background-color: #FBFBF4; }
+.CodeMirror-gutters:hover { background-color: #dc143c !important; }
+.CodeMirror-guttermarker { color: #dc143c; }
+.CodeMirror-guttermarker-subtle { color: #F49090; }
+
+.cm-s-ipython .CodeMirror-cursor { border-left: solid thin #020122; }
+.cm-s-ipython .CodeMirror-linenumber { color: #44475a; }
+.cm-s-ipython .CodeMirror-selected { background: #FFD685 !important; }
+.cm-s-ipython .CodeMirror-line::selection, .cm-s-dracula .CodeMirror-line > span::selection, .cm-s-dracula .CodeMirror-line > span > span::selection { background: #44475a; }
+.cm-s-ipython .CodeMirror-line::-moz-selection, .cm-s-dracula .CodeMirror-line > span::-moz-selection, .cm-s-dracula .CodeMirror-line > span > span::-moz-selection { background: #44475a; }
+.cm-s-ipython span.cm-comment { color: #F49090; }
+.cm-s-ipython span.cm-string, .cm-s-dracula span.cm-string-2 { color: #3281A3; }
+.cm-s-ipython span.cm-number { color: #C5449F;}
+.cm-s-ipython span.cm-punctuation { color: #C54448; }
+.cm-s-ipython span.cm-variable { color: #020122; }
+.cm-s-ipython span.cm-variable-2 { color: #C54448; font-style: italic; }
+.cm-s-ipython span.cm-def { color: #2f807c; }
+.cm-s-ipython span.cm-operator { color: #C54448; font-weight: normal; }
+.cm-s-ipython span.cm-keyword { color: #C54448; font-weight: normal; }
+.cm-s-ipython span.cm-atom { color: #C5449F; }
+.cm-s-ipython span.cm-meta { color: #C5449F; }
+.cm-s-ipython span.cm-tag { color: #C5449F; }
+.cm-s-ipython span.cm-attribute { color: #020122; }
+.cm-s-ipython span.cm-qualifier { color: #020122; }
+.cm-s-ipython span.cm-property { color: #C54448; }
+.cm-s-ipython span.cm-builtin { color: #2f807c; font-style: italic; }
+.cm-s-ipython span.cm-variable-3, .cm-s-dracula span.cm-type { color: #FFB627; }
+
+.cm-s-ipython .CodeMirror-activeline-background { background: #44475a; }
+.cm-s-ipython .CodeMirror-matchingbracket { color: #2f807c !important; font-weight: bold; }
+.cm-s-ipython .CodeMirror-nonmatchingbracket { color: #dc143c !important; font-weight: bold; }
